@@ -1,7 +1,7 @@
 // @flow
 
-import type { StyleObj } from './StyleSheet/StyleSheetTypes';
 import StyleSheet from './web/StyleSheet';
+import type { StyleObj } from './StyleSheet/StyleSheetTypes';
 import createViewComponent from './web/createViewComponent';
 import type { ViewProps } from './web/createViewComponent';
 import createTextComponent from './web/createTextComponent';
