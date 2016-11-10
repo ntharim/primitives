@@ -8,7 +8,7 @@
     "url": "http://github.com/nthtran/primitives.git"
   },
   "scripts": {
-    "build": "npm run clean && babel src --ignore __tests__ --out-dir dist/ && cp package.json dist/ && flow-copy-source -v src dist",
+    "build": "npm run clean && babel src --ignore __tests__ --out-dir dist/ && cp package.json dist/ && cp README.md dist/ && flow-copy-source -v src dist",
     "clean": "rimraf dist coverage",
     "test": "jest --watch",
     "storybook": "start-storybook -p 9001 -c .storybook"
