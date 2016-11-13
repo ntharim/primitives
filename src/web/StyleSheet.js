@@ -6,7 +6,7 @@ import * as css from '../StyleSheet/css';
 import createReactStyleObject from '../StyleSheet/createReactStyleObject';
 import type { StyleObj } from '../StyleSheet/StyleSheetTypes';
 
-insertRule(css.getDefaultStyleSheet());
+css.getDefaultStyleSheetRules().forEach(rule => insertRule(rule));
 
 type Props = {
   className?: ?string,
