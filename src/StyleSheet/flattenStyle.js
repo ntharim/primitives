@@ -1,6 +1,6 @@
 // @flow
 
-import ReactNativePropRegistry from 'react/lib/ReactNativePropRegistry';
+import ReactNativePropRegistry from './ReactNativePropRegistry';
 import invariant from 'fbjs/lib/invariant';
 import isObject from './utils/isObject';
 import type { StyleObj } from './StyleSheetTypes';

@@ -1,6 +1,6 @@
 // @flow
 
-import ReactNativePropRegistry from 'react/lib/ReactNativePropRegistry';
+import ReactNativePropRegistry from './ReactNativePropRegistry';
 import mapValues from 'lodash/mapValues';
 import flatten from '../StyleSheet/flattenStyle';
 import type {

@@ -2,6 +2,10 @@
 .*/__mocks__/.*
 .*/__tests__/.*
 
+# Ignore some own node modules
+.*/node_modules/react/node_modules/.*
+.*/node_modules/glamor/node_modules/.*
+
 [options]
 module.system=haste
 
