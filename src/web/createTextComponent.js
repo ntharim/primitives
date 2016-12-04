@@ -14,6 +14,7 @@ export type TextProps = PrimitiveProps & {
   // accessibilityRole?: 'heading' | 'link', // TODO: should really be 'heading' | 'link' but not possible with '&'. Waiting for https://github.com/facebook/flow/issues/1326
   numberOfLines?: number,
   onPress?: Function,
+  onClick?: Function,
   selectable?: number,
   style?: ?StyleObj,
 };
@@ -40,6 +41,7 @@ export default function createTextComponent(StyleSheet: StyleSheetFunctions) {
         children,
         numberOfLines,
         onPress,
+        onClick,
         selectable = true,
         style,
         ...other
@@ -54,7 +56,7 @@ export default function createTextComponent(StyleSheet: StyleSheetFunctions) {
       const props = {
         ...other,
         children: mappedChildren,
-        onClick: onPress,
+        onClick: onPress || onClick,
         style: [
           styles.initial,
           style,

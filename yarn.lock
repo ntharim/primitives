@@ -750,13 +750,13 @@ babel-plugin-transform-es2015-computed-properties@^6.3.13:
     babel-runtime "^6.0.0"
     babel-template "^6.8.0"
 
-babel-plugin-transform-es2015-destructuring@6.16.0:
+babel-plugin-transform-es2015-destructuring@6.16.0, babel-plugin-transform-es2015-destructuring@^6.6.0:
   version "6.16.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-destructuring/-/babel-plugin-transform-es2015-destructuring-6.16.0.tgz#050fe0866f5d53b36062ee10cdf5bfe64f929627"
   dependencies:
     babel-runtime "^6.9.0"
 
-babel-plugin-transform-es2015-destructuring@^6.18.0, babel-plugin-transform-es2015-destructuring@^6.6.0:
+babel-plugin-transform-es2015-destructuring@^6.18.0:
   version "6.18.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-destructuring/-/babel-plugin-transform-es2015-destructuring-6.18.0.tgz#a08fb89415ab82058649558bedb7bf8dafa76ba5"
   dependencies:
@@ -829,7 +829,7 @@ babel-plugin-transform-es2015-object-super@^6.3.13:
     babel-helper-replace-supers "^6.8.0"
     babel-runtime "^6.0.0"
 
-babel-plugin-transform-es2015-parameters@6.17.0:
+babel-plugin-transform-es2015-parameters@6.17.0, babel-plugin-transform-es2015-parameters@^6.6.0:
   version "6.17.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-parameters/-/babel-plugin-transform-es2015-parameters-6.17.0.tgz#e06d30cef897f46adb4734707bbe128a0d427d58"
   dependencies:
@@ -840,7 +840,7 @@ babel-plugin-transform-es2015-parameters@6.17.0:
     babel-traverse "^6.16.0"
     babel-types "^6.16.0"
 
-babel-plugin-transform-es2015-parameters@^6.18.0, babel-plugin-transform-es2015-parameters@^6.6.0:
+babel-plugin-transform-es2015-parameters@^6.18.0:
   version "6.18.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-parameters/-/babel-plugin-transform-es2015-parameters-6.18.0.tgz#9b2cfe238c549f1635ba27fc1daa858be70608b1"
   dependencies:
@@ -1017,9 +1017,9 @@ babel-preset-env@0.0.6:
     babel-plugin-transform-regenerator "^6.6.0"
     browserslist "^1.4.0"
 
-babel-preset-env@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/babel-preset-env/-/babel-preset-env-0.0.8.tgz#a7e37e4b345263d045cd29738a0aff1ce31f5b0e"
+babel-preset-env@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/babel-preset-env/-/babel-preset-env-0.0.9.tgz#7ca6128a3c7ea1c839a535e6e98fa2f14557c349"
   dependencies:
     babel-plugin-check-es2015-constants "^6.3.13"
     babel-plugin-syntax-trailing-function-commas "^6.13.0"
@@ -2094,9 +2094,9 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-react-app@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-react-app/-/eslint-config-react-app-0.3.0.tgz#29a768eda157eb0bc22f8136d36136b8a4374e3d"
+eslint-config-react-app@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-react-app/-/eslint-config-react-app-0.4.0.tgz#7f87bfd2a35ed7aa17860b6b002b4197fea385d0"
 
 eslint-import-resolver-node@^0.2.0:
   version "0.2.3"
@@ -2420,9 +2420,9 @@ flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
-flow-bin@^0.35.0:
-  version "0.35.0"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.35.0.tgz#63d4eb9582ce352541be98e6a424503217141b07"
+flow-bin@^0.36.0:
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.36.0.tgz#557907bd9c2ab0670cfad9e7e906a74b0631e39a"
 
 flow-copy-source@^1.1.0:
   version "1.1.0"
@@ -3680,13 +3680,9 @@ lodash.words@^3.0.0:
   dependencies:
     lodash._root "^3.0.0"
 
-lodash@4.x.x, lodash@^4.17.2, lodash@^4.2.1:
+lodash@4.x.x, lodash@^4.0.0, lodash@^4.15.0, lodash@^4.16.4, lodash@^4.17.2, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0:
   version "4.17.2"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.2.tgz#34a3055babe04ce42467b607d700072c7ff6bf42"
-
-lodash@^4.0.0, lodash@^4.15.0, lodash@^4.16.4, lodash@^4.2.0, lodash@^4.3.0:
-  version "4.16.6"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.16.6.tgz#d22c9ac660288f3843e16ba7d2b5d06cca27d777"
 
 longest@^1.0.1:
   version "1.0.1"
@@ -4747,7 +4743,7 @@ readable-stream@^1.0.27-1, readable-stream@^1.1.13:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-"readable-stream@^2.0.0 || ^1.1.13", readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@~2.1.4:
+"readable-stream@^2.0.0 || ^1.1.13", readable-stream@~2.1.4:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.1.5.tgz#66fa8b720e1438b364681f2ad1a63c618448c9d0"
   dependencies:
@@ -4759,7 +4755,7 @@ readable-stream@^1.0.27-1, readable-stream@^1.1.13:
     string_decoder "~0.10.x"
     util-deprecate "~1.0.1"
 
-readable-stream@~2.0.0:
+readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@~2.0.0:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.0.6.tgz#8f90341e68a53ccc928788dacfcd11b36eb9b78e"
   dependencies:
