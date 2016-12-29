@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "fbjs": "^0.8.6",
-    "glamor": "^2.18.2",
+    "glamor": "^2.20.19",
     "lodash": "^4.17.2"
   },
   "peerDependencies": {
