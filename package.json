@@ -23,7 +23,7 @@
   },
   "peerDependencies": {
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
     "@kadira/storybook": "^2.30.1",
