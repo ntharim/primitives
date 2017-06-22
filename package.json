@@ -34,7 +34,7 @@
     "babel-preset-env": "^1.0.0",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-1": "^6.16.0",
-    "enzyme": "^2.5.1",
+    "enzyme": "^2.9.0",
     "eslint": "^3.10.2",
     "eslint-config-react-app": "^0.4.0",
     "eslint-plugin-flowtype": "^2.25.0",
